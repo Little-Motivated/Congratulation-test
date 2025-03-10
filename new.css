@@ -1,0 +1,59 @@
+body{
+    /* background-image: url("./media/Sunset.png");
+    background-position: left center;
+    background-size: cover; */
+    background-color: #feebe0;
+}
+
+.base{
+    display: flex;
+    flex-flow: column;
+    justify-content: end;
+
+    margin: auto;
+
+    height: 96vh;
+    width: 98vw;
+    border: 1px solid red;
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pacifico {
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.head-text{
+    text-align: center;
+    font-size: 15vw;
+    color: rgb(255, 0, 0);
+    /* border: 3px solid rgba(255, 125, 125, 0.374);
+    border-radius: 20px; */
+    padding: 0%;
+    margin: auto;
+}
+
+.main-text{
+    /* border: 3px solid rgba(255, 125, 125, 0.374);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px; */
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+    color: rgb(255, 0, 0);
+    font-size: 7vw;
+    line-height: 200%;
+
+}
+
+.flower{
+    width: 100%;
+    margin: auto;
+}
